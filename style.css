@@ -4,16 +4,20 @@
 body{
     background-color: #D5E1EF;
     margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
 }
 .container{
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     font-size: 15px;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit';
     padding: 16px;
+    height: 100%;
     
 }
 .card{
