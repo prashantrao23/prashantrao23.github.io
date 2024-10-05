@@ -1,24 +1,29 @@
+@import url('https://fonts.google.com/specimen/Outfit');
+
+
 body{
-    background-color: hsl(218, 10%, 67%);
+    background-color: #D5E1EF;
+    margin: 0px;
 }
 .container{
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     font-size: 15px;
     font-family: 'Outfit', sans-serif;
+    padding: 16px;
     
 }
 .card{
     display: block;
     border-radius: 20px;
-    padding: 10px;
+    padding: 16px 16px 40px 16px;
     width: 300px;
     background-color: white;
     text-align: center;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0477);
     border:8px #999;
     -webkit-box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
     -moz-box-shadow: 5px 5px 15px rgba(0,0,0,0.1)
@@ -34,14 +39,30 @@ body{
 }
 
 .card-body{
-    margin: 8% 3% 10%;
+    /* margin: 8% 3% 10%; */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+    padding: 0px 16px;
 }
 .card-body .heading{
-    font-weight: 900;
-    color: hsl(218, 44%, 22%);
+    font-family: "Outfit";
+    font-size: 22px;
+    font-weight: 700;
+    color: #1F314F;
+    margin: 0px;
+    text-align: center;
+
 }
 
-.card-body p{
-    color: hsl(212, 6%, 57%);
-    font-weight: 700;
+.card-body .details{
+    font-family: "Outfit";
+    font-size: 15px;
+    font-weight: 500;
+    color: #68778D;
+    letter-spacing: 0.2px;
+    margin: 0px;
+    text-align: center;
+
 }
